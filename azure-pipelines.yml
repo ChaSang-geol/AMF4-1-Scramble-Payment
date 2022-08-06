@@ -3,16 +3,16 @@
 # https://docs.microsoft.com/azure/devops/pipelines/languages/docker
 
 trigger:
-- master
+- main
 
 resources:
 - repo: self
 
 variables:
-- group: scrumble-rg
-  # containerRegistry: 'scrumbleacr.azurecr.io'
-  # containerRegistryDockerConnection: '94a482fa-ee5a-4c32-aca5-4e65c00b4927'
-  # environment: 'aks.default'
+- group: common-value
+  containerRegistry:'scrumbleacr.azurecr.io'
+  containerRegistryDockerConnection:'94a482fa-ee5a-4c32-aca5-4e65c00b4927'
+  environment:'aks.default'
 - name: imageRepository
   value: 'Payment'
 - name: dockerfilePath
