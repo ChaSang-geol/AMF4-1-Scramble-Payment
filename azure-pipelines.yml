@@ -10,6 +10,12 @@ resources:
 
 variables:
 - group: common-value
+- name: containerRegistry
+  value: 'scrumbleacr.azurecr.io'
+- name: containerRegistryDockerConnection
+  value: '94a482fa-ee5a-4c32-aca5-4e65c00b4927'
+- name: environment
+  value: 'aks.default'
   # containerRegistry: 'scrumbleacr.azurecr.io'
   # containerRegistryDockerConnection: '94a482fa-ee5a-4c32-aca5-4e65c00b4927'
   # environment: 'aks.default'
