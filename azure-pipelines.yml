@@ -15,7 +15,7 @@ variables:
 - name: containerRegistryDockerConnection
   value: '94a482fa-ee5a-4c32-aca5-4e65c00b4927'
 - name: environment
-  value: 'aks.default'
+  value: 'scrumble-payment'
   # containerRegistry: 'scrumbleacr.azurecr.io'
   # containerRegistryDockerConnection: '94a482fa-ee5a-4c32-aca5-4e65c00b4927'
   # environment: 'aks.default'
