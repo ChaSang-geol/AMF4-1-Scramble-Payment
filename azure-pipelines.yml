@@ -9,7 +9,7 @@ resources:
 - repo: self
 
 variables:
-- group: common-value
+#- group: common-value
 - name: containerRegistry
   value: 'scrumbleacr.azurecr.io'
 - name: containerRegistryDockerConnection
