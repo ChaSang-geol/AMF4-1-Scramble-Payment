@@ -10,9 +10,9 @@ resources:
 
 variables:
 - group: common-value
-  containerRegistry:'scrumbleacr.azurecr.io'
-  containerRegistryDockerConnection:'94a482fa-ee5a-4c32-aca5-4e65c00b4927'
-  environment:'aks.default'
+  # containerRegistry: 'scrumbleacr.azurecr.io'
+  # containerRegistryDockerConnection: '94a482fa-ee5a-4c32-aca5-4e65c00b4927'
+  # environment: 'aks.default'
 - name: imageRepository
   value: 'Payment'
 - name: dockerfilePath
